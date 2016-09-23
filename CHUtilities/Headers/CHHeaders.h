@@ -10,11 +10,11 @@
 #ifndef CHUtilities_Headers_h
 #define CHUtilities_Headers_h
 
-#include "CHDefines.h"
-#import "CHVersionUtil.h"
+#import "CHDefines.h"
 #import "CHLocationUtil.h"
-
-
+#import "CHUserDefaults.h"
+#import "CHLog.h"
+#import "LogManager.h"
 
 
 #endif

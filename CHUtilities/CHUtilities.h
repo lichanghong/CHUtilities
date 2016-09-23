@@ -16,6 +16,11 @@ FOUNDATION_EXPORT const unsigned char CHUtilitiesVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CHUtilities/PublicHeader.h>
 
-
 #import "CHHeaders.h"
 #import "CHDefines.h"
+
+
+#import "CocoaLumberjack.h"
+
+
+
