@@ -329,6 +329,7 @@
 				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
 				INFOPLIST_FILE = CHUtilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client2.CHUtilDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -341,6 +342,7 @@
 				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
 				INFOPLIST_FILE = CHUtilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client2.CHUtilDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

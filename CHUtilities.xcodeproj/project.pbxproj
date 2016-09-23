@@ -14,10 +14,10 @@
 		95BDB7F51D950F22009CE337 /* CHUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB7F31D950F22009CE337 /* CHUserDefaults.m */; };
 		95BDB7F91D950F5C009CE337 /* CHLocationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB7F71D950F5C009CE337 /* CHLocationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BDB7FA1D950F5C009CE337 /* CHLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB7F81D950F5C009CE337 /* CHLocationUtil.m */; };
-		95BDB81E1D951014009CE337 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8021D951014009CE337 /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB81E1D951014009CE337 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8021D951014009CE337 /* CLIColor.h */; };
 		95BDB81F1D951014009CE337 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB8031D951014009CE337 /* CLIColor.m */; };
 		95BDB8201D951014009CE337 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8041D951014009CE337 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95BDB8211D951014009CE337 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8051D951014009CE337 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB8211D951014009CE337 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8051D951014009CE337 /* DDAbstractDatabaseLogger.h */; };
 		95BDB8221D951014009CE337 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB8061D951014009CE337 /* DDAbstractDatabaseLogger.m */; };
 		95BDB8231D951014009CE337 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8071D951014009CE337 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BDB8241D951014009CE337 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB8081D951014009CE337 /* DDASLLogCapture.m */; };
@@ -33,16 +33,22 @@
 		95BDB82E1D951014009CE337 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8121D951014009CE337 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BDB82F1D951014009CE337 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8131D951014009CE337 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BDB8301D951014009CE337 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB8141D951014009CE337 /* DDTTYLogger.m */; };
-		95BDB8311D951014009CE337 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8161D951014009CE337 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB8311D951014009CE337 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8161D951014009CE337 /* DDContextFilterLogFormatter.h */; };
 		95BDB8321D951014009CE337 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB8171D951014009CE337 /* DDContextFilterLogFormatter.m */; };
-		95BDB8331D951014009CE337 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8181D951014009CE337 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB8331D951014009CE337 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8181D951014009CE337 /* DDDispatchQueueLogFormatter.h */; };
 		95BDB8341D951014009CE337 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB8191D951014009CE337 /* DDDispatchQueueLogFormatter.m */; };
-		95BDB8351D951014009CE337 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB81A1D951014009CE337 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB8351D951014009CE337 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB81A1D951014009CE337 /* DDMultiFormatter.h */; };
 		95BDB8361D951014009CE337 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB81B1D951014009CE337 /* DDMultiFormatter.m */; };
 		95BDB8371D951014009CE337 /* LogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB81C1D951014009CE337 /* LogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BDB8381D951014009CE337 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB81D1D951014009CE337 /* LogManager.m */; };
 		95BDB8401D9527FF009CE337 /* CHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB83E1D9527FF009CE337 /* CHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BDB8411D9527FF009CE337 /* CHHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB83F1D9527FF009CE337 /* CHHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB84A1D952FDF009CE337 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB8481D952FDF009CE337 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB84B1D952FDF009CE337 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB8491D952FDF009CE337 /* UIColor+Hex.m */; };
+		95BDB84F1D953172009CE337 /* Toast+UIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB84D1D953172009CE337 /* Toast+UIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB8501D953172009CE337 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB84E1D953172009CE337 /* Toast+UIView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		95BDB85D1D9536E3009CE337 /* CHImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB85B1D9536E3009CE337 /* CHImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDB85E1D9536E3009CE337 /* CHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDB85C1D9536E3009CE337 /* CHImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +90,13 @@
 		95BDB81D1D951014009CE337 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		95BDB83E1D9527FF009CE337 /* CHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDefines.h; sourceTree = "<group>"; };
 		95BDB83F1D9527FF009CE337 /* CHHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHeaders.h; sourceTree = "<group>"; };
+		95BDB8481D952FDF009CE337 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		95BDB8491D952FDF009CE337 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		95BDB84D1D953172009CE337 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		95BDB84E1D953172009CE337 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		95BDB8521D9531A2009CE337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95BDB85B1D9536E3009CE337 /* CHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImage.h; sourceTree = "<group>"; };
+		95BDB85C1D9536E3009CE337 /* CHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +115,15 @@
 			children = (
 				0AB6822819E8FC6200C48EC6 /* CHUtilities.h */,
 				95BDB83D1D9527FF009CE337 /* Headers */,
+				95BDB85A1D9536CE009CE337 /* CHImage */,
+				95BDB84C1D953172009CE337 /* CHToast */,
 				0AB6820D19E8FB3E00C48EC6 /* Supporting Files */,
 				95BDB7F61D950F5C009CE337 /* CHLocationUtil */,
 				95BDB7F11D950F22009CE337 /* CHUserDefaults */,
 				95BDB7EB1D950D00009CE337 /* Logs */,
+				95BDB8471D952FDF009CE337 /* Color */,
 				0AB6820B19E8FB3E00C48EC6 /* Products */,
+				95BDB8511D9531A2009CE337 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -226,6 +243,44 @@
 			path = CHUtilities/Headers;
 			sourceTree = "<group>";
 		};
+		95BDB8471D952FDF009CE337 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				95BDB8481D952FDF009CE337 /* UIColor+Hex.h */,
+				95BDB8491D952FDF009CE337 /* UIColor+Hex.m */,
+			);
+			name = Color;
+			path = CHUtilities/Color;
+			sourceTree = "<group>";
+		};
+		95BDB84C1D953172009CE337 /* CHToast */ = {
+			isa = PBXGroup;
+			children = (
+				95BDB84D1D953172009CE337 /* Toast+UIView.h */,
+				95BDB84E1D953172009CE337 /* Toast+UIView.m */,
+			);
+			name = CHToast;
+			path = CHUtilities/CHToast;
+			sourceTree = "<group>";
+		};
+		95BDB8511D9531A2009CE337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95BDB8521D9531A2009CE337 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BDB85A1D9536CE009CE337 /* CHImage */ = {
+			isa = PBXGroup;
+			children = (
+				95BDB85B1D9536E3009CE337 /* CHImage.h */,
+				95BDB85C1D9536E3009CE337 /* CHImage.m */,
+			);
+			name = CHImage;
+			path = CHUtilities/CHImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -240,21 +295,24 @@
 				95BDB7F91D950F5C009CE337 /* CHLocationUtil.h in Headers */,
 				95BDB8201D951014009CE337 /* CocoaLumberjack.h in Headers */,
 				95BDB82E1D951014009CE337 /* DDLogMacros.h in Headers */,
-				95BDB8331D951014009CE337 /* DDDispatchQueueLogFormatter.h in Headers */,
 				95BDB8271D951014009CE337 /* DDAssertMacros.h in Headers */,
 				95BDB8281D951014009CE337 /* DDFileLogger.h in Headers */,
-				95BDB8311D951014009CE337 /* DDContextFilterLogFormatter.h in Headers */,
 				95BDB8251D951014009CE337 /* DDASLLogger.h in Headers */,
 				95BDB82F1D951014009CE337 /* DDTTYLogger.h in Headers */,
-				95BDB81E1D951014009CE337 /* CLIColor.h in Headers */,
 				95BDB82B1D951014009CE337 /* DDLog+LOGV.h in Headers */,
-				95BDB8351D951014009CE337 /* DDMultiFormatter.h in Headers */,
 				95BDB82A1D951014009CE337 /* DDLegacyMacros.h in Headers */,
-				95BDB8211D951014009CE337 /* DDAbstractDatabaseLogger.h in Headers */,
-				95BDB8231D951014009CE337 /* DDASLLogCapture.h in Headers */,
 				95BDB82C1D951014009CE337 /* DDLog.h in Headers */,
+				95BDB84A1D952FDF009CE337 /* UIColor+Hex.h in Headers */,
 				95BDB7EF1D950D00009CE337 /* CHLog.h in Headers */,
+				95BDB8231D951014009CE337 /* DDASLLogCapture.h in Headers */,
+				95BDB84F1D953172009CE337 /* Toast+UIView.h in Headers */,
+				95BDB85D1D9536E3009CE337 /* CHImage.h in Headers */,
 				0AB6822919E8FC6200C48EC6 /* CHUtilities.h in Headers */,
+				95BDB81E1D951014009CE337 /* CLIColor.h in Headers */,
+				95BDB8211D951014009CE337 /* DDAbstractDatabaseLogger.h in Headers */,
+				95BDB8351D951014009CE337 /* DDMultiFormatter.h in Headers */,
+				95BDB8331D951014009CE337 /* DDDispatchQueueLogFormatter.h in Headers */,
+				95BDB8311D951014009CE337 /* DDContextFilterLogFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +385,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				95BDB8381D951014009CE337 /* LogManager.m in Sources */,
+				95BDB84B1D952FDF009CE337 /* UIColor+Hex.m in Sources */,
 				95BDB8241D951014009CE337 /* DDASLLogCapture.m in Sources */,
 				95BDB8301D951014009CE337 /* DDTTYLogger.m in Sources */,
 				95BDB8291D951014009CE337 /* DDFileLogger.m in Sources */,
 				95BDB8321D951014009CE337 /* DDContextFilterLogFormatter.m in Sources */,
 				95BDB81F1D951014009CE337 /* CLIColor.m in Sources */,
 				95BDB7FA1D950F5C009CE337 /* CHLocationUtil.m in Sources */,
+				95BDB85E1D9536E3009CE337 /* CHImage.m in Sources */,
+				95BDB8501D953172009CE337 /* Toast+UIView.m in Sources */,
 				95BDB7F51D950F22009CE337 /* CHUserDefaults.m in Sources */,
 				95BDB8361D951014009CE337 /* DDMultiFormatter.m in Sources */,
 				95BDB7F01D950D00009CE337 /* CHLog.m in Sources */,

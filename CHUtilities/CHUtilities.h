@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+//使用本库需要项目设置 other link flags： -ObjC
+
 
 //! Project version number for CHUtilities.
 FOUNDATION_EXPORT double CHUtilitiesVersionNumber;

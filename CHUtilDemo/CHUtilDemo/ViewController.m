@@ -19,6 +19,7 @@
     [super viewDidLoad];
     [LogManager defaultManager];
     DDLogInfo(@"logtest");
+    [self.view makeToast:@"hehe"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
