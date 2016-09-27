@@ -111,18 +111,20 @@
     
     if (!empty) {
 //        存入服务器
-        NSString *urlstr =[NSString stringWithFormat:UploadURLStr,IP,logcontent];
-        NSURL *uploadURL = [NSURL URLWithString:[urlstr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
-        NSURLRequest *request = [NSURLRequest requestWithURL:uploadURL];
-        [[[NSURLSession sharedSession]dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-            if (!error) {
-                //                [self deleteLoggersWhenPostSuccess:[self uploadDir]];
-            }
-            else
-            {
-                NSLog(@"uploadlog error %@",error);
-            }
-        }] resume];
+        if (_shouldUploadToServer) {
+            NSString *urlstr =[NSString stringWithFormat:UploadURLStr,IP,logcontent];
+            NSURL *uploadURL = [NSURL URLWithString:[urlstr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
+            NSURLRequest *request = [NSURLRequest requestWithURL:uploadURL];
+            [[[NSURLSession sharedSession]dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+                if (!error) {
+                    //                [self deleteLoggersWhenPostSuccess:[self uploadDir]];
+                }
+                else
+                {
+                    NSLog(@"uploadlog error %@",error);
+                }
+            }] resume];
+        }
     }
     else
     {

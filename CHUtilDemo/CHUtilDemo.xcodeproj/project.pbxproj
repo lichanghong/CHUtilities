@@ -145,7 +145,8 @@
 				TargetAttributes = {
 					95F4543C1D923B19007A1613 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = ZQQMP3TJXZ;
+						DevelopmentTeam = 86455TAXDJ;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -326,11 +327,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 86455TAXDJ;
 				INFOPLIST_FILE = CHUtilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client2.CHUtilDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = lichanghong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -339,11 +341,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 86455TAXDJ;
 				INFOPLIST_FILE = CHUtilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client2.CHUtilDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = lichanghong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

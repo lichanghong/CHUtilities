@@ -26,6 +26,8 @@ NSLog(@"%@",str);\
  */
 @interface CHLog : NSObject
 
+@property (nonatomic,assign)BOOL shouldUploadToServer;
+
 + (instancetype)defaultLog;
 
 - (void)inchlog:(NSString *)log;
