@@ -21,5 +21,9 @@
 #import "CHLog.h"
 #import "LogManager.h"
 #import "Toast+UIView.h"
+#import "UIColor+Hex.h"
+ 
+
+
 
 #endif

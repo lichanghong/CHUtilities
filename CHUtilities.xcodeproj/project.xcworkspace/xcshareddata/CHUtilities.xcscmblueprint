@@ -8,7 +8,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BA06D4E4-CF39-4417-8CC8-9185EFEA969E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "0BD77F88984BD785DC5BE65ED5C8DBCB0FC931A8" : "CHUtilities"
+    "0BD77F88984BD785DC5BE65ED5C8DBCB0FC931A8" : "CHUtilities\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "CHUtilities",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
